@@ -2,12 +2,21 @@ pragma solidity >=0.4.21 <0.7.0;
 
 
 contract Election {
-    string public candidate1;
-    string public candidate2;
+    struct Candidate {
+        uint id;
+        string name;
+        uint voteCount;
+    }
+
+    mapping(uint => Candidate) public candidates;
+    uint public candidatesCount;
 
     constructor() public {
-        candidate1 = "Dumbledore";
-        candidate2 = "Gandalf";
-
+        addCandidate("Dumbledore");
+        addCandidate("Gandalf");
+    }
+    function addCandidate(string memory _name) private {
+        candidatesCount++;
+        candidates[candidatesCount] = Candidate(candidatesCount, _name, 0);
     }
 }

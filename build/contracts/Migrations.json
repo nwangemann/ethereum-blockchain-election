@@ -35,7 +35,8 @@
       "inputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "constructor"
+      "type": "constructor",
+      "signature": "constructor"
     },
     {
       "constant": false,
@@ -889,12 +890,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xC23a1D593Dabe3A7d2EDe2ad6aAF80FeE4b9ce79",
-      "transactionHash": "0x628d97956022d42f01b751a1ebc5af0729a0fe649b50598175eb3442349d77e2"
+      "address": "0xF400E47059C350e7198c91832A6D2FFbb65423fD",
+      "transactionHash": "0xf1cdab4e2f2e1a7c422e7607c01594a0960193bccd74317b81988fa8ec04a2d5"
     }
   },
   "schemaVersion": "3.0.2",
-  "updatedAt": "2020-06-05T01:46:06.870Z",
+  "updatedAt": "2020-06-05T02:23:55.255Z",
   "devdoc": {
     "methods": {}
   },
