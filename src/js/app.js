@@ -6,7 +6,8 @@ App = {
 
   init: function() {
     return App.initWeb3();
-  },                                                                                                                                              =
+  },                                                                                                                     
+
   initWeb3: function() {
     if (typeof web3 !== 'undefined') {
       App.web3Provider = web3.currentProvider;
